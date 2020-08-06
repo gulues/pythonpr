@@ -1,5 +1,6 @@
 import sympy.ntheory as nt 
-
+###############################
+###############################
 def countPrimes(primo,anterior):
     count=0
     nt
