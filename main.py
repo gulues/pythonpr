@@ -14,9 +14,5 @@ if __name__ == "__main__":
     lista = file.readline().split(",")
     itemAnterior=1
     for l in lista:
-
         print(l + ": " + str(countPrimes(l,itemAnterior)))
-        itemAnterior=int(l)    
-    # # for i in range(1, 885046783):
-    #     print(i)
-
+        itemAnterior=int(l) 
